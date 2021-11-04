@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family:"Poppins",sans-serif;
+}
+.description{
+    min-height: 20vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    min-height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 4rem;
+}
+
+.spooky-picture{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
